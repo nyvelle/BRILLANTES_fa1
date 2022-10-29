@@ -103,9 +103,12 @@ span {
 	float: left;
 }
 
-.members {
+#members p{
 	float: left;
-	margin: 20px;
+	margin-left: 20px;
+}
+
+
 
 .pics {
 	width: 10px;
