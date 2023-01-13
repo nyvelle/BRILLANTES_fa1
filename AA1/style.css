@@ -1,59 +1,50 @@
 *{
+	margin: 0 0 0 0;
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
 }
-			
-h1{
+
+header{
 	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
-		
 section{
-	width: calc(100%/3);
+	width: 33.33%;
 	float: left;
 }
-			
+
 article{
 	position: relative;
-	border: 1px solid black;
+	border: 1px;
+	border-style: solid;
 	margin-left: 10px;
 	margin-right: 10px;
 	background-color: #EEE;
-	overflow-y: scroll;
-}
-
-figure {
-	padding-top: 20px;
-	width: 500px;
-}
-
-footer {
-	margin-top: 20px;
 }
 
 h2{
 	position: absolute;
+	top: 0px;
 	right: 0px;
 	width: 100px;
 	text-align: center;
-	border: 1px solid black;
+	border: 1px;
+	border-style: solid;
 }
 
-p {
-	margin:35px 5px 5px 5px;
-}		
-
-#chicken {
-	background-color: yellow;
+p{
+	margin: 35px 5px 5px 5px;
 }
 
-#beef {
-	background-color: blue;
+#beef{
+	background-color:blue;
 }
 
-#pork {
-	background-color: pink;
+#chicken{
+	background-color:yellow;
+}
+
+#pork{
+	background-color:pink;
 }
